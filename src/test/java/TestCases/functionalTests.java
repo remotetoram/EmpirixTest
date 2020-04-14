@@ -67,24 +67,24 @@ public class functionalTests {
   @Test(priority=2)
   public void test_Alert_Tab_VerificationEnglish(){
 	  HomePage objHome=new HomePage(driver);
-	  objHome.changeTab("Alerts");
+	  objHome.changeTab(1);
  }
   @Test(priority=3)
   public void test_Tests_Tab_VerificationEnglish(){
 	  HomePage objHome=new HomePage(driver);
-	  objHome.changeTab("Tests");
+	  objHome.changeTab(3);
 	    
   }
   @Test(priority=4)
   public void test_Variables_Tab_VerificationEnglish(){
 	  HomePage objHome=new HomePage(driver);
-	  objHome.changeTab("Variables");
+	  objHome.changeTab(4);
 	    
   }
   @Test(priority=5)
   public void test_Notifications_Tab_VerificationEnglish() throws InterruptedException{
 	  HomePage objHome=new HomePage(driver);
-	  objHome.changeTab("Notifications");
+	  objHome.changeTab(5);
 	  Thread.sleep(1000);
   }
   @Test(priority=6)
@@ -109,25 +109,25 @@ public class functionalTests {
   @Test(priority=8)
   public void test_Notifications_Tab_VerificationJapanese() throws InterruptedException{
 	  HomePage objHome=new HomePage(driver);
-	  objHome.changeTab("Notifications");
+	  objHome.changeTab(5);
 	  Thread.sleep(1000);
   }
   
   @Test(priority=9)
   public void test_Alert_Tab_VerificationJapanese(){
 	  HomePage objHome=new HomePage(driver);
-	  objHome.changeTab("Alerts");
+	  objHome.changeTab(2);
  }
   @Test(priority=10)
   public void test_Tests_Tab_VerificationJapanese(){
 	  HomePage objHome=new HomePage(driver);
-	  objHome.changeTab("Tests");
+	  objHome.changeTab(3);
 	    
   }
   @Test(priority=11)
   public void test_Variables_Tab_VerificationJapanese(){
 	  HomePage objHome=new HomePage(driver);
-	  objHome.changeTab("Variables");
+	  objHome.changeTab(4);
 	    
   }
   @Test(priority=12)

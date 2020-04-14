@@ -73,26 +73,26 @@ public String checkLanguage()
 	 }
 	return currentLanguage; 
 }
-     public void changeTab(String tabName)
+     public void changeTab(int i)
      {
-      tabName=tabName.toUpperCase();
-      switch(tabName){
-      case "DASHBOARD":
+     
+      switch(i){
+      case 1:
       driver.findElement(dashboardTab).click();
       break;
-      case "ALERTS":
+      case 2:
       driver.findElement(alertsTab).click();
       break;
 
-      case "TESTS":
+      case 3:
       driver.findElement(testsTab).click();
       break;	
 
-      case "VARIABLES":
+      case 4:
       driver.findElement(variablesTab).click();
       break;	
 
-      case "NOTIFICATIONS":
+      case 5:
       driver.findElement(notificationsTab).click();
       break;	
 
