@@ -99,11 +99,11 @@ public String checkLanguage()
      }	
      }
 
-     public void selectfromProfileDdn(String optionValue)
+     public void selectfromProfileDdn(int i)
      {
-      optionValue=optionValue.toUpperCase();
-      switch(optionValue){
-	  case "CLIENT":
+      
+      switch(i){
+	  case 3:
 	  driver.findElement(userDdn).click();
 	  driver.findElement(clientLink).click();
 	  WebDriverWait wait = new WebDriverWait(driver,80000);

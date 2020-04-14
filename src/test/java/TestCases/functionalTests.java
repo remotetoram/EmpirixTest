@@ -4,10 +4,10 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import Pages.LoginPage;
 import Pages.HomePage;
-import org.testng.annotations.BeforeSuite;
+
 import org.testng.annotations.Parameters;
 
-import static org.testng.Assert.assertEquals;
+
 import static org.testng.Assert.assertTrue;
 
 import java.util.concurrent.TimeUnit;
@@ -87,7 +87,7 @@ public class functionalTests {
   @Test(priority=6)
   public void test_Client_Verification(){
 	  HomePage objHome=new HomePage(driver);
-	  objHome.selectfromProfileDdn("client");
+	  objHome.selectfromProfileDdn(3);
       assertTrue(objHome.verifylabel("Empirix_QA_Training"));
    
   }
