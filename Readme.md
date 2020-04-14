@@ -1,4 +1,4 @@
-This Project is based on TestNG framework with Page Object Model pattern in Selenium.
+This Test suite is based on TestNG framework with Page Object Model pattern in Selenium.
 it has got two below Page classes, where all the methods and controls for respective webpages are defined.
 
 1)LoginPage
