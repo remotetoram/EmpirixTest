@@ -15,7 +15,6 @@
  </classes>
  
  </test>
- 
  <test name="chrome">
  
  <parameter name="browser" value="chrome" />
@@ -27,5 +26,6 @@
  </classes>
  
  </test>
+ 
  
 </suite>

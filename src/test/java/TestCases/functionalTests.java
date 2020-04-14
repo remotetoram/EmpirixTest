@@ -2,12 +2,8 @@ package TestCases;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
-
-
-import Pages.HomePage;
 import Pages.LoginPage;
-
+import Pages.HomePage;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
@@ -37,14 +33,15 @@ public class functionalTests {
 	  @Parameters("browser")
 	  @BeforeClass
   public void beforeSuite(String browser) {
-		  if(browser.equalsIgnoreCase("firefox")) {
+		  
+		 if(browser.equalsIgnoreCase("firefox")) {
 			    System.setProperty("webdriver.gecko.driver","G:/Selenium jars/geckodriver.exe");
 		        driver=new FirefoxDriver();
 			   }else if (browser.equalsIgnoreCase("chrome")) { 
 				System.setProperty("webdriver.chrome.driver","G:/Selenium jars/chromedriver.exe");
 				driver=new ChromeDriver();
 		   } 
-		 
+			   
 	  driver.get("https://services.empirix.com/");
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  WebDriverWait wait = new WebDriverWait(driver,30);
@@ -143,6 +140,7 @@ public class functionalTests {
   
   @AfterSuite
   public void afterSuite() {
+	  driver.quit();
   }
 
 }
