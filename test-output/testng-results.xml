@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="24" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="151370" started-at="2020-04-14T12:53:36Z" finished-at="2020-04-14T12:56:07Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="142197" started-at="2020-04-14T12:53:36Z" finished-at="2020-04-14T12:55:58Z">
+      <class name="TestCases.functionalTests">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:TestCases.functionalTests@4c70fda8]" name="beforeSuite" is-config="true" duration-ms="61098" started-at="2020-04-14T12:53:36Z" finished-at="2020-04-14T12:54:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:TestCases.functionalTests@4c70fda8]" name="test_Home_Page_Appear_Correct" duration-ms="53841" started-at="2020-04-14T12:54:37Z" finished-at="2020-04-14T12:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+        <test-method status="PASS" signature="test_Alert_Tab_VerificationEnglish()[pri:2, instance:TestCases.functionalTests@4c70fda8]" name="test_Alert_Tab_VerificationEnglish" duration-ms="358" started-at="2020-04-14T12:55:31Z" finished-at="2020-04-14T12:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Alert_Tab_VerificationEnglish -->
+        <test-method status="PASS" signature="test_Tests_Tab_VerificationEnglish()[pri:3, instance:TestCases.functionalTests@4c70fda8]" name="test_Tests_Tab_VerificationEnglish" duration-ms="364" started-at="2020-04-14T12:55:31Z" finished-at="2020-04-14T12:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Tests_Tab_VerificationEnglish -->
+        <test-method status="PASS" signature="test_Variables_Tab_VerificationEnglish()[pri:4, instance:TestCases.functionalTests@4c70fda8]" name="test_Variables_Tab_VerificationEnglish" duration-ms="316" started-at="2020-04-14T12:55:32Z" finished-at="2020-04-14T12:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Variables_Tab_VerificationEnglish -->
+        <test-method status="PASS" signature="test_Notifications_Tab_VerificationEnglish()[pri:5, instance:TestCases.functionalTests@4c70fda8]" name="test_Notifications_Tab_VerificationEnglish" duration-ms="1321" started-at="2020-04-14T12:55:32Z" finished-at="2020-04-14T12:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Notifications_Tab_VerificationEnglish -->
+        <test-method status="PASS" signature="test_Client_Verification()[pri:6, instance:TestCases.functionalTests@4c70fda8]" name="test_Client_Verification" duration-ms="1971" started-at="2020-04-14T12:55:33Z" finished-at="2020-04-14T12:55:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Client_Verification -->
+        <test-method status="PASS" signature="test_change_language_Japanese(java.lang.String)[pri:7, instance:TestCases.functionalTests@4c70fda8]" name="test_change_language_Japanese" duration-ms="10049" started-at="2020-04-14T12:55:35Z" finished-at="2020-04-14T12:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_change_language_Japanese -->
+        <test-method status="PASS" signature="test_Notifications_Tab_VerificationJapanese()[pri:8, instance:TestCases.functionalTests@4c70fda8]" name="test_Notifications_Tab_VerificationJapanese" duration-ms="1277" started-at="2020-04-14T12:55:45Z" finished-at="2020-04-14T12:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Notifications_Tab_VerificationJapanese -->
+        <test-method status="PASS" signature="test_Alert_Tab_VerificationJapanese()[pri:9, instance:TestCases.functionalTests@4c70fda8]" name="test_Alert_Tab_VerificationJapanese" duration-ms="265" started-at="2020-04-14T12:55:47Z" finished-at="2020-04-14T12:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Alert_Tab_VerificationJapanese -->
+        <test-method status="PASS" signature="test_Tests_Tab_VerificationJapanese()[pri:10, instance:TestCases.functionalTests@4c70fda8]" name="test_Tests_Tab_VerificationJapanese" duration-ms="315" started-at="2020-04-14T12:55:47Z" finished-at="2020-04-14T12:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Tests_Tab_VerificationJapanese -->
+        <test-method status="PASS" signature="test_Variables_Tab_VerificationJapanese()[pri:11, instance:TestCases.functionalTests@4c70fda8]" name="test_Variables_Tab_VerificationJapanese" duration-ms="276" started-at="2020-04-14T12:55:47Z" finished-at="2020-04-14T12:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Variables_Tab_VerificationJapanese -->
+        <test-method status="PASS" signature="test_change_language_English()[pri:12, instance:TestCases.functionalTests@4c70fda8]" name="test_change_language_English" duration-ms="10666" started-at="2020-04-14T12:55:47Z" finished-at="2020-04-14T12:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_change_language_English -->
+      </class> <!-- TestCases.functionalTests -->
+    </test> <!-- FirefoxTest -->
+    <test name="chrome" duration-ms="151370" started-at="2020-04-14T12:53:36Z" finished-at="2020-04-14T12:56:07Z">
+      <class name="TestCases.functionalTests">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:TestCases.functionalTests@39c0f4a]" name="beforeSuite" is-config="true" duration-ms="43344" started-at="2020-04-14T12:53:36Z" finished-at="2020-04-14T12:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:TestCases.functionalTests@39c0f4a]" name="test_Home_Page_Appear_Correct" duration-ms="80242" started-at="2020-04-14T12:54:19Z" finished-at="2020-04-14T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+        <test-method status="PASS" signature="test_Alert_Tab_VerificationEnglish()[pri:2, instance:TestCases.functionalTests@39c0f4a]" name="test_Alert_Tab_VerificationEnglish" duration-ms="240" started-at="2020-04-14T12:55:40Z" finished-at="2020-04-14T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Alert_Tab_VerificationEnglish -->
+        <test-method status="PASS" signature="test_Tests_Tab_VerificationEnglish()[pri:3, instance:TestCases.functionalTests@39c0f4a]" name="test_Tests_Tab_VerificationEnglish" duration-ms="225" started-at="2020-04-14T12:55:40Z" finished-at="2020-04-14T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Tests_Tab_VerificationEnglish -->
+        <test-method status="PASS" signature="test_Variables_Tab_VerificationEnglish()[pri:4, instance:TestCases.functionalTests@39c0f4a]" name="test_Variables_Tab_VerificationEnglish" duration-ms="236" started-at="2020-04-14T12:55:40Z" finished-at="2020-04-14T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Variables_Tab_VerificationEnglish -->
+        <test-method status="PASS" signature="test_Notifications_Tab_VerificationEnglish()[pri:5, instance:TestCases.functionalTests@39c0f4a]" name="test_Notifications_Tab_VerificationEnglish" duration-ms="1236" started-at="2020-04-14T12:55:40Z" finished-at="2020-04-14T12:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Notifications_Tab_VerificationEnglish -->
+        <test-method status="PASS" signature="test_Client_Verification()[pri:6, instance:TestCases.functionalTests@39c0f4a]" name="test_Client_Verification" duration-ms="3220" started-at="2020-04-14T12:55:42Z" finished-at="2020-04-14T12:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Client_Verification -->
+        <test-method status="PASS" signature="test_change_language_Japanese(java.lang.String)[pri:7, instance:TestCases.functionalTests@39c0f4a]" name="test_change_language_Japanese" duration-ms="10029" started-at="2020-04-14T12:55:45Z" finished-at="2020-04-14T12:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_change_language_Japanese -->
+        <test-method status="PASS" signature="test_Notifications_Tab_VerificationJapanese()[pri:8, instance:TestCases.functionalTests@39c0f4a]" name="test_Notifications_Tab_VerificationJapanese" duration-ms="1285" started-at="2020-04-14T12:55:55Z" finished-at="2020-04-14T12:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Notifications_Tab_VerificationJapanese -->
+        <test-method status="PASS" signature="test_Alert_Tab_VerificationJapanese()[pri:9, instance:TestCases.functionalTests@39c0f4a]" name="test_Alert_Tab_VerificationJapanese" duration-ms="155" started-at="2020-04-14T12:55:56Z" finished-at="2020-04-14T12:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Alert_Tab_VerificationJapanese -->
+        <test-method status="PASS" signature="test_Tests_Tab_VerificationJapanese()[pri:10, instance:TestCases.functionalTests@39c0f4a]" name="test_Tests_Tab_VerificationJapanese" duration-ms="196" started-at="2020-04-14T12:55:56Z" finished-at="2020-04-14T12:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Tests_Tab_VerificationJapanese -->
+        <test-method status="PASS" signature="test_Variables_Tab_VerificationJapanese()[pri:11, instance:TestCases.functionalTests@39c0f4a]" name="test_Variables_Tab_VerificationJapanese" duration-ms="132" started-at="2020-04-14T12:55:56Z" finished-at="2020-04-14T12:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Variables_Tab_VerificationJapanese -->
+        <test-method status="PASS" signature="test_change_language_English()[pri:12, instance:TestCases.functionalTests@39c0f4a]" name="test_change_language_English" duration-ms="10719" started-at="2020-04-14T12:55:57Z" finished-at="2020-04-14T12:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_change_language_English -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestCases.functionalTests@39c0f4a]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-04-14T12:56:08Z" finished-at="2020-04-14T12:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestCases.functionalTests -->
+    </test> <!-- chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

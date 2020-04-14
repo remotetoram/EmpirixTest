@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Ram\TestNG_ALL\SampleProject\testing.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Alert_Tab_VerificationEnglish">test_Alert_Tab_VerificationEnglish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Alert_Tab_VerificationEnglish">test_Alert_Tab_VerificationEnglish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Alert_Tab_VerificationJapanese">test_Alert_Tab_VerificationJapanese</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Alert_Tab_VerificationJapanese">test_Alert_Tab_VerificationJapanese</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Client_Verification">test_Client_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Client_Verification">test_Client_Verification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Home_Page_Appear_Correct">test_Home_Page_Appear_Correct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Home_Page_Appear_Correct">test_Home_Page_Appear_Correct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Notifications_Tab_VerificationEnglish">test_Notifications_Tab_VerificationEnglish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Notifications_Tab_VerificationEnglish">test_Notifications_Tab_VerificationEnglish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Notifications_Tab_VerificationJapanese">test_Notifications_Tab_VerificationJapanese</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Notifications_Tab_VerificationJapanese">test_Notifications_Tab_VerificationJapanese</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Tests_Tab_VerificationEnglish">test_Tests_Tab_VerificationEnglish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Tests_Tab_VerificationEnglish">test_Tests_Tab_VerificationEnglish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Tests_Tab_VerificationJapanese">test_Tests_Tab_VerificationJapanese</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Tests_Tab_VerificationJapanese">test_Tests_Tab_VerificationJapanese</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Variables_Tab_VerificationEnglish">test_Variables_Tab_VerificationEnglish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Variables_Tab_VerificationEnglish">test_Variables_Tab_VerificationEnglish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Variables_Tab_VerificationJapanese">test_Variables_Tab_VerificationJapanese</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_Variables_Tab_VerificationJapanese">test_Variables_Tab_VerificationJapanese</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_change_language_English">test_change_language_English</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_change_language_English">test_change_language_English</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_change_language_Japanese(firefox)">test_change_language_Japanese(firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.functionalTests" hash-for-method="test_change_language_Japanese(chrome)">test_change_language_Japanese(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.functionalTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Alert_Tab_VerificationEnglish">
+                  </a> <!-- test_Alert_Tab_VerificationEnglish -->
+                  <span class="method-name">test_Alert_Tab_VerificationEnglish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Alert_Tab_VerificationEnglish">
+                  </a> <!-- test_Alert_Tab_VerificationEnglish -->
+                  <span class="method-name">test_Alert_Tab_VerificationEnglish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Alert_Tab_VerificationJapanese">
+                  </a> <!-- test_Alert_Tab_VerificationJapanese -->
+                  <span class="method-name">test_Alert_Tab_VerificationJapanese</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Alert_Tab_VerificationJapanese">
+                  </a> <!-- test_Alert_Tab_VerificationJapanese -->
+                  <span class="method-name">test_Alert_Tab_VerificationJapanese</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Client_Verification">
+                  </a> <!-- test_Client_Verification -->
+                  <span class="method-name">test_Client_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Client_Verification">
+                  </a> <!-- test_Client_Verification -->
+                  <span class="method-name">test_Client_Verification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Home_Page_Appear_Correct">
+                  </a> <!-- test_Home_Page_Appear_Correct -->
+                  <span class="method-name">test_Home_Page_Appear_Correct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Home_Page_Appear_Correct">
+                  </a> <!-- test_Home_Page_Appear_Correct -->
+                  <span class="method-name">test_Home_Page_Appear_Correct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Notifications_Tab_VerificationEnglish">
+                  </a> <!-- test_Notifications_Tab_VerificationEnglish -->
+                  <span class="method-name">test_Notifications_Tab_VerificationEnglish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Notifications_Tab_VerificationEnglish">
+                  </a> <!-- test_Notifications_Tab_VerificationEnglish -->
+                  <span class="method-name">test_Notifications_Tab_VerificationEnglish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Notifications_Tab_VerificationJapanese">
+                  </a> <!-- test_Notifications_Tab_VerificationJapanese -->
+                  <span class="method-name">test_Notifications_Tab_VerificationJapanese</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Notifications_Tab_VerificationJapanese">
+                  </a> <!-- test_Notifications_Tab_VerificationJapanese -->
+                  <span class="method-name">test_Notifications_Tab_VerificationJapanese</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Tests_Tab_VerificationEnglish">
+                  </a> <!-- test_Tests_Tab_VerificationEnglish -->
+                  <span class="method-name">test_Tests_Tab_VerificationEnglish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Tests_Tab_VerificationEnglish">
+                  </a> <!-- test_Tests_Tab_VerificationEnglish -->
+                  <span class="method-name">test_Tests_Tab_VerificationEnglish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Tests_Tab_VerificationJapanese">
+                  </a> <!-- test_Tests_Tab_VerificationJapanese -->
+                  <span class="method-name">test_Tests_Tab_VerificationJapanese</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Tests_Tab_VerificationJapanese">
+                  </a> <!-- test_Tests_Tab_VerificationJapanese -->
+                  <span class="method-name">test_Tests_Tab_VerificationJapanese</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Variables_Tab_VerificationEnglish">
+                  </a> <!-- test_Variables_Tab_VerificationEnglish -->
+                  <span class="method-name">test_Variables_Tab_VerificationEnglish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Variables_Tab_VerificationEnglish">
+                  </a> <!-- test_Variables_Tab_VerificationEnglish -->
+                  <span class="method-name">test_Variables_Tab_VerificationEnglish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Variables_Tab_VerificationJapanese">
+                  </a> <!-- test_Variables_Tab_VerificationJapanese -->
+                  <span class="method-name">test_Variables_Tab_VerificationJapanese</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Variables_Tab_VerificationJapanese">
+                  </a> <!-- test_Variables_Tab_VerificationJapanese -->
+                  <span class="method-name">test_Variables_Tab_VerificationJapanese</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_change_language_English">
+                  </a> <!-- test_change_language_English -->
+                  <span class="method-name">test_change_language_English</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_change_language_English">
+                  </a> <!-- test_change_language_English -->
+                  <span class="method-name">test_change_language_English</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_change_language_Japanese(firefox)">
+                  </a> <!-- test_change_language_Japanese(firefox) -->
+                  <span class="method-name">test_change_language_Japanese</span>
+                  <span class="parameters">(firefox)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_change_language_Japanese(chrome)">
+                  </a> <!-- test_change_language_Japanese(chrome) -->
+                  <span class="method-name">test_change_language_Japanese</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ram\TestNG_ALL\SampleProject\testing.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;FirefoxTest&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.functionalTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FirefoxTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.functionalTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chrome --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FirefoxTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">chrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_Home_Page_Appear_Correct')
+data.setCell(0, 2, 'TestCases.functionalTests')
+data.setCell(0, 3, 80242);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_Home_Page_Appear_Correct')
+data.setCell(1, 2, 'TestCases.functionalTests')
+data.setCell(1, 3, 53841);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_change_language_English')
+data.setCell(2, 2, 'TestCases.functionalTests')
+data.setCell(2, 3, 10719);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_change_language_English')
+data.setCell(3, 2, 'TestCases.functionalTests')
+data.setCell(3, 3, 10666);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_change_language_Japanese')
+data.setCell(4, 2, 'TestCases.functionalTests')
+data.setCell(4, 3, 10049);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_change_language_Japanese')
+data.setCell(5, 2, 'TestCases.functionalTests')
+data.setCell(5, 3, 10029);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_Client_Verification')
+data.setCell(6, 2, 'TestCases.functionalTests')
+data.setCell(6, 3, 3220);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_Client_Verification')
+data.setCell(7, 2, 'TestCases.functionalTests')
+data.setCell(7, 3, 1971);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_Notifications_Tab_VerificationEnglish')
+data.setCell(8, 2, 'TestCases.functionalTests')
+data.setCell(8, 3, 1321);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_Notifications_Tab_VerificationJapanese')
+data.setCell(9, 2, 'TestCases.functionalTests')
+data.setCell(9, 3, 1285);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test_Notifications_Tab_VerificationJapanese')
+data.setCell(10, 2, 'TestCases.functionalTests')
+data.setCell(10, 3, 1277);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_Notifications_Tab_VerificationEnglish')
+data.setCell(11, 2, 'TestCases.functionalTests')
+data.setCell(11, 3, 1236);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_Tests_Tab_VerificationEnglish')
+data.setCell(12, 2, 'TestCases.functionalTests')
+data.setCell(12, 3, 364);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_Alert_Tab_VerificationEnglish')
+data.setCell(13, 2, 'TestCases.functionalTests')
+data.setCell(13, 3, 358);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test_Variables_Tab_VerificationEnglish')
+data.setCell(14, 2, 'TestCases.functionalTests')
+data.setCell(14, 3, 316);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test_Tests_Tab_VerificationJapanese')
+data.setCell(15, 2, 'TestCases.functionalTests')
+data.setCell(15, 3, 315);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test_Variables_Tab_VerificationJapanese')
+data.setCell(16, 2, 'TestCases.functionalTests')
+data.setCell(16, 3, 276);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test_Alert_Tab_VerificationJapanese')
+data.setCell(17, 2, 'TestCases.functionalTests')
+data.setCell(17, 3, 265);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test_Alert_Tab_VerificationEnglish')
+data.setCell(18, 2, 'TestCases.functionalTests')
+data.setCell(18, 3, 240);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test_Variables_Tab_VerificationEnglish')
+data.setCell(19, 2, 'TestCases.functionalTests')
+data.setCell(19, 3, 236);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test_Tests_Tab_VerificationEnglish')
+data.setCell(20, 2, 'TestCases.functionalTests')
+data.setCell(20, 3, 225);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test_Tests_Tab_VerificationJapanese')
+data.setCell(21, 2, 'TestCases.functionalTests')
+data.setCell(21, 3, 196);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'test_Alert_Tab_VerificationJapanese')
+data.setCell(22, 2, 'TestCases.functionalTests')
+data.setCell(22, 3, 155);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'test_Variables_Tab_VerificationJapanese')
+data.setCell(23, 2, 'TestCases.functionalTests')
+data.setCell(23, 3, 132);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.functionalTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeSuite(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeSuite(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_Home_Page_Appear_Correct</span>
+                <span class="method-start">43375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Home_Page_Appear_Correct</span>
+                <span class="method-start">61098 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Alert_Tab_VerificationEnglish</span>
+                <span class="method-start">114960 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Tests_Tab_VerificationEnglish</span>
+                <span class="method-start">115318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Variables_Tab_VerificationEnglish</span>
+                <span class="method-start">115682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Notifications_Tab_VerificationEnglish</span>
+                <span class="method-start">116013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Client_Verification</span>
+                <span class="method-start">117334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_change_language_Japanese(firefox)</span>
+                <span class="method-start">119305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Alert_Tab_VerificationEnglish</span>
+                <span class="method-start">123621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Tests_Tab_VerificationEnglish</span>
+                <span class="method-start">123869 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Variables_Tab_VerificationEnglish</span>
+                <span class="method-start">124102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Notifications_Tab_VerificationEnglish</span>
+                <span class="method-start">124342 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Client_Verification</span>
+                <span class="method-start">125578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_change_language_Japanese(chrome)</span>
+                <span class="method-start">128802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Notifications_Tab_VerificationJapanese</span>
+                <span class="method-start">129358 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Alert_Tab_VerificationJapanese</span>
+                <span class="method-start">130635 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Tests_Tab_VerificationJapanese</span>
+                <span class="method-start">130900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Variables_Tab_VerificationJapanese</span>
+                <span class="method-start">131215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_change_language_English</span>
+                <span class="method-start">131495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Notifications_Tab_VerificationJapanese</span>
+                <span class="method-start">138835 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Alert_Tab_VerificationJapanese</span>
+                <span class="method-start">140120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Tests_Tab_VerificationJapanese</span>
+                <span class="method-start">140279 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Variables_Tab_VerificationJapanese</span>
+                <span class="method-start">140479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_change_language_English</span>
+                <span class="method-start">140615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">151759 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
